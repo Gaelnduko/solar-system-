@@ -1,0 +1,61 @@
+
+header{
+    font-size: medium;
+   
+    background-color: rgb(255, 188, 2);
+    text-overflow: clip;
+    display: flex;
+    gap: 50px;
+    width: 100%;
+    justify-content: space-between;
+    top: 0;
+    right: 0;
+    left: 0;
+    position:fixed ;
+    
+    
+    
+}
+.logo{
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    border-radius: 12px;
+    margin-right: 40px;
+    padding-inline-start: 40px;
+  
+    height: 60px;
+    margin-top: 30px;
+    text-align: bottom;
+    display: flex;
+    
+    
+}
+.nav-links {
+    display: flex;
+    color: rgb(0, 0, 0);
+    margin-left: 40px;
+    gap: 60px;
+}
+.nav-links a{
+    color: rgb(0, 0, 0);
+    margin-right: 50px;
+    margin: auto;
+    padding-right: 15px;
+    text-decoration: none;
+    
+}
+.search-box{
+    margin: auto;
+    
+}
+h2 {
+    margin-top: 40px;
+    border-radius: 15px;
+    max-width: fit-content;
+    height: 35px;
+    height: 30px;
+    color: orange;
+}
+h1 {
+    color: orange;
+}
